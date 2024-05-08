@@ -109,6 +109,7 @@ html {
 #about-section {
     justify-content: space-evenly;
     top: 150px;
+    z-index: 5;
 }
 
 #about-img {
@@ -363,24 +364,22 @@ html {
     }
 }
 
-/*Boat Art and Animation*/
-.boat-container {
-    display: flex;
-    position: absolute;
+/*Boat art*/
+
+#boat-container, #boat-haul {
     align-items: center;
     justify-content: center;
+}
+
+#boat-container {
+    display: flex;
+    position: absolute;
     height: 150px;
     width: 100%;
     top: -155px;
-    position: absolute;
-    z-index: -5;
-    z-index: 50;
 }
 
-.boat-haul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#boat-haul {
     position: relative;
     top: 50px;
     height: 50px;
@@ -392,7 +391,7 @@ html {
     animation: boathaul 3s infinite;
 }
 
-.boat-pole {
+#boat-pole {
     position: relative;
     right: 125px;
     width: 15px;
@@ -402,7 +401,7 @@ html {
     z-index: -5;
 }
 
-.boat-flag {
+#boat-flag {
     position: relative;
     top: -30px;
     width: 80px;
@@ -412,6 +411,8 @@ html {
     animation: boatflag 5s infinite;
 }
 
+
+/*Boat animation*/
 @keyframes boatflag {
     50% {
         width: 90px;
@@ -425,17 +426,144 @@ html {
     }
 }
 
-.laptop-art-container {
+/*Start of shark art*/
+
+
+
+#Shark {
+    display: flex;
     position: absolute;
-    background-color: white;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 150px;
     top: -155px;
-    opacity: 0.4;
 }
 
-.laptop-body {
-    
+#shark-body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100px;
+    left: 130px;
+    height: 90px;
+    background-image: linear-gradient(grey 70%, white);
+    border-radius: 50% 50% 40% 40%;
+}
+
+#shark-hammer {
+    position: relative;
+    top: -15px;
+    left: -26px;
+    width: 220px;
+    height: 26px;
+    background-image: linear-gradient(grey, rgb(72, 71, 71));
+    border-radius: 10px 10px 30px 30px;
+}
+
+#shark-left-eye {
+    position: relative;
+    background-color: black;
+    width: 5px;
+    height: 12px;
+    border-radius: 100%;
+    border: 1px solid rgb(93, 93, 93);
+}
+
+#shark-right-eye {
+    position: relative;
+    background-color: black;
+    width: 5px;
+    left: 214px;
+    top: -13px;
+    height: 12px;
+    border-radius: 100%;
+    border: 1px solid rgb(93,93,93);
+}
+
+#shark-top-fin {
+    display: flex;
+    position: absolute;
+    top: -10px;
+    width: 10px;
+    height: 50px;
+    border-radius: 0 0 5px 5px;
+    background-image: linear-gradient(rgb(147, 147, 147), rgb(78, 78, 78))
+
+}
+
+#shark-fin-left {
+    position: relative;
+    left: -210px;
+    top: 40px;
+    width: 18px;
+    height: 60px;
+    background-image: linear-gradient(white, rgb(134, 134, 134) 50%);
+    border-radius: 0 0 4% 100%;
+    transform: rotate(60deg);
+    z-index: -5;
+    animation: sharkFinLeft 5s infinite;
+}
+
+#shark-fin-right {
+    position: relative;
+    top: 40px;
+    right: 110px;
+    width: 18px;
+    height: 60px;
+    background-image: linear-gradient(white, rgb(134, 134, 134) 50%);
+    border-radius: 0 0 100% 4%;
+    transform: rotate(-60deg);
+    z-index: -5;
+    animation: sharkFinRight 5s infinite;
+}
+
+#shark-mouth {
+    position: absolute;
+    height: 25px;
+    width: 70px;
+    top: 85px;
+    border-radius: 40% 40% 70% 70%;
+    background-image: linear-gradient(red, black);
+    z-index: 5;
+    animation: mouth 8s infinite;
+}
+
+#shark-tail {
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background-image: linear-gradient(rgb(171, 171, 171), rgb(75, 75, 75));
+    z-index: -1;
+    border-radius: 50px 0 0 50px;
+    transform: scalex(1);
+    animation: tail 10s infinite;
+}
+
+/*Shark animation*/
+@keyframes tail {
+    50% {
+        transform: scalex(-1);
+    }
+}
+
+@keyframes mouth {
+    50% {
+        height: 10px;
+        width: 68px;
+    }
+}
+
+@keyframes sharkFinRight {
+    50% {
+        height: 58px;
+    }
+}
+
+@keyframes sharkFinLeft {
+    50% {
+        height: 58px;
+    }
 }
 
 
