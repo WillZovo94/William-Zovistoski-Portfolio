@@ -12,7 +12,7 @@
 - Links on the footer of the page that will present new information on how to contact using a new tab.
 - The following image shows a section of the main webpage.
 ![Section of webpage](/Assets/Images/Wzportfoliomain.jpg)
-- Following image shows a functional navigation bar.
+- The following image shows a functional navigation bar.
 ![Navigation bar](/Assets/Images/Wzportfolio1.jpg)
 - The following image showcases projects that are equipped with links to the GitHub repository.
 ![Project Section](/Assets/Images/Wzportfolio2.jpg)
