@@ -25,3 +25,6 @@
 - CSS custom artwork and animation.
 - A footer with contact links.
 
+## Credit
+[Placeholder Images - Freepik]([https://willzovo94.github.io/Horiseon-SEO-and-social-media-marketing-services/](https://www.freepik.com/free-vector/gradient-connection-background_45337611.htm#query=technology%20background&position=48&from_view=keyword&track=ais&uuid=0ee6ef9b-c5e9-4b6a-91d6-a112449fb585))
+
