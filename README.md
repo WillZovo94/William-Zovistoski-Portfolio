@@ -6,8 +6,22 @@
  - I learned the importance of layout design and proper links to help create a functional responsive website that presents you with key points of the webpage.
 
 ## Usage
-- You have accessible navigation bar on the top right that will smoothly transition to the sections selected, along with a link that will access a PDF file within the repository to showcase my resume.
+- You have an accessible navigation bar on the top right that will smoothly transition to the sections selected, along with a link that will access a PDF file within the repository to showcase my resume.
 - Interactive CSS custom art and animation for some diversity to the page.
 - Interactive section names that are changed while you hover over them.
 - Links on the footer of the page that will present new information on how to contact using a new tab.
-- Following image shows a section of the main webpage.
+- The following image shows a section of the main webpage.
+![Section of webpage](/Assets/Images/Wzportfoliomain.jpg)
+- Following image shows a functional navigation bar.
+![Navigation bar](/Assets/Images/Wzportfolio1.jpg)
+- The following image showcases projects that are equipped with links to the GitHub repository.
+![Project Section](/Assets/Images/Wzportfolio2.jpg)
+
+## Features
+- Navigation bar with a smooth scroll for smooth transitions.
+- Interactive buttons with transitions on them.
+- Interactive section names with transitions.
+- A project showcase with links to the GitHub repository associated with it.
+- CSS custom artwork and animation.
+- A footer with contact links.
+
